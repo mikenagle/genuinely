@@ -2,11 +2,23 @@ var gameType = "conversation";
 
 var questions = [
     {
+        id: 1,
+        question: 'What is the craziest dream you\'ve ever had?',
+    },  
+    {
         id: 2,
+        question: 'What\'s one thing no one knows about you?',
+    },  
+     {
+        id: 3,
+        question: 'If you could ask me anything and have me answer truthfully, what would it be?',
+    },  
+    {
+        id: 4,
         question: 'What was the first record you ever bought',
     },
     {
-        id: 4,
+        id: 5,
         question: 'What do you think people say when they talk about you',
     },
     {
@@ -70,6 +82,10 @@ var questions = [
         question: 'What would you choose as your superpower',
     },
     {
+        id: 21,
+        question: 'What\'s something you never liked until you tried it and now you think is great?',
+    },
+    {
         id: 22,
         question: 'If you could rent out a whole cinema, what would you show',
     },
@@ -86,15 +102,15 @@ var questions = [
         question: 'If money were no object, where would you go',
     },
     {
-        id: 35,
+        id: 26,
         question: 'Where do you most want to travel but have never been',
     },
     {
-        id: 36,
+        id: 27,
         question: 'What book has affected you the most',
     },
     {
-        id: 37,
+        id: 28,
         question: 'What\'s the hardest thing you have ever done',
     },
     {
@@ -449,20 +465,5 @@ var questions = [
         id: 127,
         question: 'How carefully do you plan what you\'re going to say?',
     },
-    {
-        id: 128,
-        question: 'What\'s something you never liked until you tried it and now you think is great?',
-    },
-    {
-        id: 129,
-        question: 'What is the craziest dream you\'ve ever had?',
-    },  
-    {
-        id: 130,
-        question: 'What\'s one thing no one knows about you?',
-    },  
-     {
-        id: 131,
-        question: 'If you could ask me anything and have me answer truthfully, what would it be?',
-    },  
+
 ]
