@@ -30,9 +30,9 @@ function startNewGame() {
     document.getElementsByTagName('body')[0].className='loading' // remove the shuffle animation after a couple of sections
     questionsMixed = shuffle(questions); //Shuffle the questions
     json_str = JSON.stringify(questionsMixed); //Store the questions as a string for the cookie
-//    console.log(questionNumber); //for debugging 
-//    console.log(questionsMixed); //for debugging
-//    console.log(json_str); //for debugging
+   console.log(questionNumber); //for debugging 
+   console.log(questionsMixed); //for debugging
+   console.log(json_str); //for debugging
     i=0; //set to first question
     document.getElementById('generated_question').textContent = questionsMixed[i].question + "?"; //display first question
     d.className = "invalid" //disable previous question button by adding invalid class

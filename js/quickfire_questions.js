@@ -197,5 +197,9 @@ var questions = [
         id: 50,
         question: 'Pasta or pizza',
     },
+    {
+        id: 51,
+        question: 'hot air balloon ride or bungee jump',
+    },
     
 ]
