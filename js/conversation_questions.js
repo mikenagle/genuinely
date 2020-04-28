@@ -441,5 +441,28 @@ var questions = [
         id: 125,
         question: 'Describe your dream house',
     },
-    
+    {
+        id: 126,
+        question: 'If you could wake up tomorrow with a new skill or trait, what would it be',
+    },
+    {
+        id: 127,
+        question: 'How carefully do you plan what you\'re going to say?',
+    },
+    {
+        id: 128,
+        question: 'What\'s something you never liked until you tried it and now you think is great?',
+    },
+    {
+        id: 129,
+        question: 'What is the craziest dream you\'ve ever had?',
+    },  
+    {
+        id: 130,
+        question: 'What\'s one thing no one knows about you?',
+    },  
+     {
+        id: 131,
+        question: 'If you could ask me anything and have me answer truthfully, what would it be?',
+    },  
 ]

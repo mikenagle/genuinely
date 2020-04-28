@@ -26,7 +26,7 @@ function shuffle(array)
 }
 
 //Function to start a new game from scratch
-function startNewGame() {
+function startNewGame() {	
     document.getElementsByTagName('body')[0].className='loading' // remove the shuffle animation after a couple of sections
     questionsMixed = shuffle(questions); //Shuffle the questions
     json_str = JSON.stringify(questionsMixed); //Store the questions as a string for the cookie
