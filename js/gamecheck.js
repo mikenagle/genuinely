@@ -38,7 +38,7 @@ function checkStatus() {
 function showOptions () {
         var elem = document.getElementById('options');
             elem.style.display=('inline-block');
-        var elem2 = document.getElementById('secretoption');Add commentMore actions
+        var elem2 = document.getElementById('secretoption');
             elem2.style.display=('inline-block');
         var elem3 = document.getElementById('startnew');
             elem3.style.display=('none');
@@ -49,7 +49,7 @@ function showOptions () {
 function hideOptions () {
         var elem = document.getElementById('options');
             elem.style.display=('none');
-        var elem2 = document.getElementById('secretoption');Add commentMore actions
+        var elem2 = document.getElementById('secretoption');
             elem2.style.display=('none');
         var elem3 = document.getElementById('startnew');
             elem3.style.display=('inline-block');
