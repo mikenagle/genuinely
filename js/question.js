@@ -133,7 +133,7 @@ function storeType () {
 function checkGameStatus() {
     if (localStorage.length != 0) { //If there's something in storage
         document.getElementsByTagName('body')[0].className='loaded' // don't show the shuffle animation at all
-//        console.log("You are part way through a game"); //For debugging
+        console.log("You are part way through a game"); //For debugging
         var retrievedQuestions = localStorage.getItem('questions'); //Retrieve the questions
         json_str = retrievedQuestions;
         questionsMixed = JSON.parse(json_str); //Parse the stored JSON string back into an array of questions
@@ -141,7 +141,7 @@ function checkGameStatus() {
         i = questionNumber -1;
         document.getElementById('generated_question').textContent = questionsMixed[i].question + "?"; //display current question
     } else {
-//        console.log("You have not started a game yet"); //For debugging
+        console.log("You have not started a game yet"); //For debugging
         document.getElementsByTagName('body')[0].className='loading' // show the shuffle animation 
         startNewGame();  //start a new game
     }
